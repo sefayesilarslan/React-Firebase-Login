@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e293b; /* koyu lacivert ton */
+  color: #ffffff;
+  padding: 16px 24px;
+  font-family: "Segoe UI", sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-left {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.navbar-right {
+  cursor: pointer;
+  padding: 8px 16px;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-right:hover {
+  background-color: #2563eb;
+}
